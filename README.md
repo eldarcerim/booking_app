@@ -32,7 +32,7 @@ Početne usluge, naziv i e-mail poruke prilagođeni su Centru MOST. Drugi korisn
 1. Preuzmite instalacijski ZIP putem linka na vrhu ove stranice ili iz foldera `release`.
 2. U WordPressu otvorite **Dodaci → Dodaj novi → Prenesi dodatak**.
 3. Instalirajte ZIP i aktivirajte dodatak.
-4. Otvorite **MOST rezervacije → Postavke** i podesite raspored, trajanje, adresu, telefon i vrijeme podsjetnika.
+4. Otvorite **Booking App → Postavke** i podesite raspored, trajanje, adresu, telefon i vrijeme podsjetnika.
 5. Dodajte shortcode na željenu stranicu:
 
 ```text
@@ -49,7 +49,7 @@ Ako izostavite `lang`, dodatak pokušava koristiti jezik trenutne WordPress stra
 
 ### Administratorske i sedmične rezervacije
 
-Otvorite **MOST rezervacije → Dodaj rezervaciju**. Odaberite početni datum i vrijeme. Za ponavljanje izaberite **Svake sedmice** i unesite posljednji datum. Dan početnog datuma određuje dan ponavljanja; početak u srijedu znači svake srijede do navedenog datuma. Kreirani termini su odmah potvrđeni.
+Otvorite **Booking App → Dodaj rezervaciju**. Odaberite početni datum i vrijeme. Za ponavljanje izaberite **Svake sedmice** i unesite posljednji datum. Dan početnog datuma određuje dan ponavljanja; početak u srijedu znači svake srijede do navedenog datuma. Kreirani termini su odmah potvrđeni.
 
 ### Obavezno za pouzdane e-mailove
 
@@ -98,7 +98,7 @@ Nemojte isključiti ugrađeni WP-Cron prije nego što je serverski cron provjere
 - podsjetnik se zakazuje samo za potvrđenu rezervaciju;
 - korisnički podsjetnik se ne šalje ako e-mail nije unesen;
 - administrator može posebno uključiti ili isključiti podsjetnik korisniku i Centru;
-- vrijeme podsjetnika podešava se u **MOST rezervacije → Postavke**;
+- vrijeme podsjetnika podešava se u **Booking App → Postavke**;
 - ako je podešeno vrijeme poslije samog termina, dodatak pokušava zakazati podsjetnik jedan sat prije termina;
 - neuspjelo slanje pokušava se ponovo najviše dva puta, u razmacima od 15 minuta, dok termin nije počeo.
 
